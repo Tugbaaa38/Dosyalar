@@ -41,6 +41,6 @@ int main() {
 	putc('\n',f);                                      // alt alta yazsin istersek bu sekil yapariz..
 	putc('K',f);  
 	
-	
+	fclose(f);                                        // dosyayi kapattik bundan sonra bilgi ekleyemeyiz.
 	return 0;
 }
